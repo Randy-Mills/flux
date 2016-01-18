@@ -4,11 +4,8 @@
             :license {:name "Eclipse Public License"
                       :url  "http://www.eclipse.org/legal/epl-v10.html"}
             :dependencies [[org.clojure/clojure "1.7.0"]
-                           [org.apache.solr/solr-core "5.3.0"]
-                           [org.apache.solr/solr-solrj "5.3.0"]
-                           [javax.servlet/servlet-api "2.5"]]
-
-            :plugins [[lein-ancient "0.6.5"]]
+                           [org.apache.solr/solr-core "5.4.0"]
+                           [org.apache.solr/solr-solrj "5.4.0"]]
             :profiles {:dev {:dependencies   [[midje "1.6.3"]
                                               [org.slf4j/slf4j-log4j12 "1.7.12"]
                                               [commons-logging "1.2"]]
